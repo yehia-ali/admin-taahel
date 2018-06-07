@@ -1049,7 +1049,7 @@ body.vertical-layout.vertical-menu.menu-expanded .main-menu-footer .content {
 }
 
 .border-top {
-  border-top : 1px solid;
+  border-top : 1px solid #1fad83;
 }
 
 .border-bottom {
@@ -4774,7 +4774,7 @@ div.dataTables_wrapper {
 }
 div.dataTables_wrapper div.dataTables_filter label {
   margin-top : 1rem;
-  float: left;
+  float: right;
 }
 div.dataTables_wrapper div.dataTables_paginate ul.pagination {
   margin : 10px 0;

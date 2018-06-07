@@ -1,12 +1,4 @@
-/*=========================================================================================
-    File Name: card-ecommerce.js
-    Description: intialize advance ecommerce cards
-    ----------------------------------------------------------------------------------------
-    Item Name: Modern Admin - Clean Bootstrap 4 Dashboard HTML Template
-    Version: 1.0
-    Author: Pixinvent
-    Author URL: hhttp://www.themeforest.net/user/pixinvent
-==========================================================================================*/
+
 (function(window, document, $) {
     'use strict';
 
@@ -19,7 +11,7 @@
 
     require.config({
         paths: {
-            echarts: '../../../app-assets/vendors/js/charts/echarts'
+            echarts: 'app-assets/vendors/js/charts/echarts'
         }
     });
 

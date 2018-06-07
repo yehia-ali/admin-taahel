@@ -10,8 +10,7 @@
     <!-- BEGIN fonts and icon CSS-->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Quicksand:300,400,500,700" rel="stylesheet">
     <link href="https://maxcdn.icons8.com/fonts/line-awesome/1.1/css/line-awesome.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css">
-    <!-- END fonts and icon CSS-->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">    <!-- END fonts and icon CSS-->
     <!-- BEGIN animate CSS-->
     <link rel="stylesheet" type="text/css" href="app-assets/css-rtl/plugins/animate/animate.css">
     <!-- end animate CSS-->
@@ -165,40 +164,40 @@
     <ul class="navigation navigation-main" >
       <li class=" nav-item"><a href="index.html"><i class="la la-home"></i><span class="menu-title" data-i18n="nav.dash.main"> لوحة التحكم </span></a>
       </li>
-      <li class=" navigation-header">
-        <span data-i18n="nav.category.charts_maps">الإحصائيات</span><i class="la la-ellipsis-h ft-minus" data-toggle="tooltip"
-                                                                       data-placement="right" data-original-title="الإحصائيات"></i>
+      <li class=" nav-item"><a href="#"><i class="fas fa-chart-pie"></i><span class="menu-title" data-i18n="nav.chartjs.main">الاحصائيات</span></a>
+        <ul class="menu-content">
+          <li><a class="menu-item" href="statisticsAdmin.html">المشرفين</a></li>
+          <li><a class="menu-item" href="statisticsActivity.html">الانشطة</a></li>
+          <li><a class="menu-item" href="statisticsMostafed.html">المستفدين</a></li>
+          <li><a class="menu-item" href="statisticsDoctors.html">المعالجين</a>
+          <li><a class="menu-item" href="statisticsTreatmentCenters.html">مراكز العلاج</a>
+          <li><a class="menu-item" href="statisticsEducation.html">مراكز التعليم</a>
+          <li><a class="menu-item" href="statisticsٍStore.html">المتجر</a>
+          <li><a class="menu-item" href="statisticstlabat.html">الطلبات</a>
+          </li>
+        </ul>
       </li>
-      <li  class=" nav-item"><a href="statisticsAdmin.html"><i class="la la-bar-chart"></i><span class="menu-title">المشرفين</span></a>
+      <li class=" nav-item"><a href="Admin.html"><i class="fas fa-unlock-alt"></i><span class="menu-title" data-i18n="nav.dash.main">المشرفين</span></a>
       </li>
-      <li  class=" nav-item"><a href="statisticsDoctors.html"><i class="la la-area-chart"></i><span class="menu-title">المعالجين</span></a>
+      <li class=" nav-item"><a href="activity.html"><i class="fas fa-people-carry"></i><span class="menu-title" data-i18n="nav.dash.main">الانشطة</span></a>
       </li>
-      <li  class=" nav-item"><a href="statisticsMostafed.html"><i class="la la-line-chart"></i><span class="menu-title">المستفيدين</span></a>
+      <li class=" nav-item"><a href="mostafed.html"><i class="fab fa-accessible-icon"></i><span class="menu-title" data-i18n="nav.dash.main">المستفدين</span></a>
       </li>
-      <li  class=" nav-item"><a href="statisticsTreatmentCenters.html"><i class="la la-indent"></i><span class="menu-title">مراكز العلاج</span></a>
+      <li class=" nav-item"><a href="TreatmentCenters.html"><i class="fab fa-medrt"></i><span class="menu-title" data-i18n="nav.dash.main">مراكز العلاج</span></a>
       </li>
-      <li  class=" nav-item"><a href="statisticsEducation.html"><i class="la la-pie-chart"></i><span class="menu-title">مراكز التعليم</span></a>
+      <li class=" nav-item"><a href="Education.html"><i class="fas fa-book-open"></i><span class="menu-title" data-i18n="nav.dash.main">مراكز التعليم</span></a>
       </li>
-      <li  class=" nav-item"><a href="statisticsActivity.html"><i class="fas fa-chart-line"></i><span class="menu-title">الأنشطة </span></a>
+      <li class=" nav-item"><a href="Store.html"><i class="fas fa-store"></i><span class="menu-title" data-i18n="nav.dash.main">المتجر</span></a>
       </li>
-      <li class=" navigation-header">
-        <span data-i18n="nav.category.charts_maps">البيانات</span><i class="la la-ellipsis-h ft-minus" data-toggle="tooltip" data-placement="right" data-original-title="البيانات"></i>
+      <li class=" nav-item"><a href="#"><i class="fab fa-rendact"></i><span class="menu-title" data-i18n="nav.chartjs.main">الطلبات</span></a>
+        <ul class="menu-content">
+          <li><a class="menu-item" href="spoon.html"> المعلقة</a></li>
+          <li><a class="menu-item" href="Rejected.html">المرفوضة</a>
+          <li><a class="menu-item" href="Confirmed.html">المؤكدة</a>
+          <li><a class="menu-item" href="Completed.html">المكتملة</a>
+          </li>
+        </ul>
       </li>
-      <li  class=" nav-item"><a href="Admin.html"><i class="fas fa-user-lock "></i><span class="menu-title">المشرفين</span></a>
-      </li>
-      <li  class=" nav-item"><a href="Doctors.html"><i class="fas fa-user-md "></i><span class="menu-title">المعالجين</span></a>
-      </li>
-      <li  class=" nav-item"><a href="mostafed.html"><i class="fas fa-diagnoses "></i><span class="menu-title">المستفيدين</span></a>
-      </li>
-      <li  class=" nav-item"><a href="TreatmentCenters.html"><i class="fas fa-medkit "></i><span class="menu-title">مراكز العلاج</span></a>
-      </li>
-      <li  class=" nav-item"><a href="Education.html"><i class="fab fa-leanpub "></i><span class="menu-title">مراكز التعليم</span></a>
-      </li>
-      <li  class=" nav-item"><a href="Store.html"><i class="fab fa-medrt "></i><span class="menu-title">المتجر</span></a>
-      </li>
-      <li  class=" nav-item"><a href="activity.html"><i class="fab fa-autoprefixer "></i><span class="menu-title">الأنشطة </span></a>
-      </li>
-
       <li class=" navigation-header">
         <span data-i18n="nav.category.support">الاعدادات</span><i class="la la-ellipsis-h ft-minus" data-toggle="tooltip"
                                                                   data-placement="right" data-original-title="الاعدادات"></i>
@@ -268,30 +267,25 @@
                         <button type="button" class="btn btn-outline-primary" data-toggle="modal" data-target="#zoomInLeft">
                           أضف
                         </button>
+                        <button type="button" class="btn btn-outline-primary pull-left mx-1" >تصدير اكسيل</button>
+                        <button type="button" class="btn btn-outline-primary pull-left" >طباعة</button>
                     </div>
-                    <table class="table table-striped table-bordered order-column dataex-basic-initialisation col-sm-12">
+                    <table class="table table-bordered table-striped ">
                       <thead>
                       <tr >
-                        <th>الرقم</th>
-                        <th>الاسم الاول </th>
-                        <th>الاسم الاخير </th>
+                        <th>الاسم </th>
                         <th>البريد الالكتروني </th>
-                        <th>الصلاحيات</th>
                         <th>الاجراء</th>
                       </tr>
                       </thead>
                       <tbody>
                       <tr >
-                        <td >Donna</td>
-                        <td >Snider</td>
-                        <td >Customer Support</td>
                         <td >Customer Support</td>
                         <td >Customer Support </td>
                         <td>
                           <div class="row">
                             <div class="col-md-6">
                               <button type="button"  class="btn btn-outline-danger"  ><i class="fas fa-trash-alt"></i></button>
-
                             </div>
                             <div class="col-md-6">
                               <button type="button"  class="btn btn-outline-info"  data-toggle="modal" data-target="#edit" class="btn btn-outline-info mr-1"><i class="fas fa-edit"></i></button>
@@ -340,28 +334,13 @@
                       </div>
                     </div>
                     <div class="row">
-                      <div class="col-sm-6">
+                      <div class="col-sm-12">
                         <div class="form-group">
                           <input  class="form-control" type="password" placeholder="كلمة المرور" >
-                        </div>
-                      </div>
-                      <div class="col-sm-6">
-                        <div class="form-group">
-                          <input  class="form-control" type="email" placeholder="تاكيد كلمة المرور" >
                         </div>
                       </div>
                     </div>
-                    <div class="row">
-                      <div class="col-sm-6">
-                        <div class="form-group">
-                          <input  class="form-control" type="password" placeholder="كلمة المرور" >
-                        </div>
-                      </div>
-                      <div class="col-sm-6">
-                        <div class="form-group">
-                          <input  class="form-control" type="email" placeholder="تاكيد كلمة المرور" >
-                        </div>
-                      </div>
+
                       <div class="row">
                         <div class="col-sm-4">
                           <div class="form-group">
@@ -431,7 +410,7 @@
                           <div class="form-group">
                             <div class="d-inline-block custom-control custom-checkbox mr-1 ml-1">
                               <input type="checkbox" class="custom-control-input" name="colorCheck" id="checkbox9">
-                              <label class="custom-control-label" for="checkbox9">إحصائيات توصل معنا</label>
+                              <label class="custom-control-label" for="checkbox9">اشعارات المعالجين</label>
                             </div>
                           </div>
                         </div>
@@ -439,7 +418,7 @@
                           <div class="form-group">
                             <div class="d-inline-block custom-control custom-checkbox mr-1 ml-1">
                               <input type="checkbox" class="custom-control-input" name="colorCheck" id="checkbox10">
-                              <label class="custom-control-label" for="checkbox10">إحصائيات الأسئلة الشائعة</label>
+                              <label class="custom-control-label" for="checkbox10">اشعارات المستفيدين</label>
                             </div>
                           </div>
                         </div>
@@ -447,7 +426,7 @@
                           <div class="form-group">
                             <div class="d-inline-block custom-control custom-checkbox mr-1 ml-1">
                               <input type="checkbox" class="custom-control-input" name="colorCheck" id="checkbox11">
-                              <label class="custom-control-label" for="checkbox11">حصائيات الشروط والأحكام</label>
+                              <label class="custom-control-label" for="checkbox11">اشعارات مراكز العلاج</label>
                             </div>
                           </div>
                         </div>
@@ -455,12 +434,115 @@
                           <div class="form-group">
                             <div class="d-inline-block custom-control custom-checkbox mr-1 ml-1">
                               <input type="checkbox" class="custom-control-input" name="colorCheck" id="checkbox12">
-                              <label class="custom-control-label" for="checkbox12">إحصائيات الإعدادات العامة</label>
+                              <label class="custom-control-label" for="checkbox12">اشعارات مراكز التعليم</label>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-sm-4">
+                          <div class="form-group">
+                            <div class="d-inline-block custom-control custom-checkbox mr-1 ml-1">
+                              <input type="checkbox" class="custom-control-input" name="colorCheck" id="checkbox20">
+                              <label class="custom-control-label" for="checkbox20">اشعارات الانشطة</label>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-sm-4">
+                          <div class="form-group">
+                            <div class="d-inline-block custom-control custom-checkbox mr-1 ml-1">
+                              <input type="checkbox" class="custom-control-input" name="colorCheck" id="checkbox21">
+                              <label class="custom-control-label" for="checkbox21">اشعارات  الاسئلة الشائعة</label>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-sm-4">
+                          <div class="form-group">
+                            <div class="d-inline-block custom-control custom-checkbox mr-1 ml-1">
+                              <input type="checkbox" class="custom-control-input" name="colorCheck" id="checkbox22">
+                              <label class="custom-control-label" for="checkbox22">اشعارات تواصل معانا</label>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-sm-4">
+                          <div class="form-group">
+                            <div class="d-inline-block custom-control custom-checkbox mr-1 ml-1">
+                              <input type="checkbox" class="custom-control-input" name="colorCheck" id="checkbox13">
+                              <label class="custom-control-label" for="checkbox13">المعالجين</label>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-sm-4">
+                          <div class="form-group">
+                            <div class="d-inline-block custom-control custom-checkbox mr-1 ml-1">
+                              <input type="checkbox" class="custom-control-input" name="colorCheck" id="checkbox14">
+                              <label class="custom-control-label" for="checkbox14">مستفدين</label>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-sm-4">
+                          <div class="form-group">
+                            <div class="d-inline-block custom-control custom-checkbox mr-1 ml-1">
+                              <input type="checkbox" class="custom-control-input" name="colorCheck" id="checkbox15">
+                              <label class="custom-control-label" for="checkbox15">مراكز العلاج</label>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-sm-4">
+                          <div class="form-group">
+                            <div class="d-inline-block custom-control custom-checkbox mr-1 ml-1">
+                              <input type="checkbox" class="custom-control-input" name="colorCheck" id="checkbox16">
+                              <label class="custom-control-label" for="checkbox16">مراكز التعليم</label>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-sm-4">
+                          <div class="form-group">
+                            <div class="d-inline-block custom-control custom-checkbox mr-1 ml-1">
+                              <input type="checkbox" class="custom-control-input" name="colorCheck" id="checkbox17">
+                              <label class="custom-control-label" for="checkbox17">المتجر</label>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-sm-4">
+                          <div class="form-group">
+                            <div class="d-inline-block custom-control custom-checkbox mr-1 ml-1">
+                              <input type="checkbox" class="custom-control-input" name="colorCheck" id="checkbox18">
+                              <label class="custom-control-label" for="checkbox18">الانشطة</label>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-sm-4">
+                          <div class="form-group">
+                            <div class="d-inline-block custom-control custom-checkbox mr-1 ml-1">
+                              <input type="checkbox" class="custom-control-input" name="colorCheck" id="checkbox19">
+                              <label class="custom-control-label" for="checkbox19">الطلبات</label>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-sm-4">
+                          <div class="form-group">
+                            <div class="d-inline-block custom-control custom-checkbox mr-1 ml-1">
+                              <input type="checkbox" class="custom-control-input" name="colorCheck" id="checkbox23">
+                              <label class="custom-control-label" for="checkbox23">المشرفين</label>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-sm-4">
+                          <div class="form-group">
+                            <div class="d-inline-block custom-control custom-checkbox mr-1 ml-1">
+                              <input type="checkbox" class="custom-control-input" name="colorCheck" id="checkbox24">
+                              <label class="custom-control-label" for="checkbox24">الاعلانات</label>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-sm-4">
+                          <div class="form-group">
+                            <div class="d-inline-block custom-control custom-checkbox mr-1 ml-1">
+                              <input type="checkbox" class="custom-control-input" name="colorCheck" id="checkbox25">
+                              <label class="custom-control-label" for="checkbox25">الاعدادات العامة</label>
                             </div>
                           </div>
                         </div>
                         </div>
-                    </div>
                   </form>
                 </div>
               </div>
@@ -481,7 +563,7 @@
     <div class="modal-dialog" role="document">
       <div class="modal-content">
         <div class="modal-header">
-          <h4 class="modal-title text-right">تعديل نشاط  </h4>
+          <h4 class="modal-title text-right">تعديل   </h4>
           <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
         </div>
         <div class="modal-body">
@@ -490,94 +572,225 @@
               <div class="border-1px p-25">
 
                 <!-- Contact Form -->
-                <form>
+                <form >
                   <div class="row">
                     <div class="col-sm-6">
                       <div class="form-group">
-                        <input name="form_name" class="form-control" type="text" placeholder="اسم النشاط" required="" aria-required="true">
+                        <input  class="form-control" type="text" placeholder="الاسم" >
                       </div>
                     </div>
                     <div class="col-sm-6">
                       <div class="form-group">
-                        <select class="form-control">
-                          <option>نوع النشاط </option>
-                          <option> فعاليات </option>
-                          <option>ندوات </option>
-                          <option>دورات </option>
-                          <option> مؤتمرات </option>
-                          <option>ورش عمل </option>
-                          <option>محاضرات </option>
-                        </select>
+                        <input  class="form-control" type="email" placeholder="البريد الالكتروني" >
                       </div>
                     </div>
                   </div>
                   <div class="row">
-                    <div class="col-sm-6">
+                    <div class="col-sm-12">
                       <div class="form-group">
-                        <input name="form_phone" class="form-control" type="phone" placeholder=" تاريخ بدء النشاط" required="" aria-required="true">
-                      </div>
-                    </div>
-                    <div class="col-sm-6">
-                      <div class="form-group">
-                        <input name="form_phone2" class="form-control" type="phone" placeholder=" مدة النشاط " required="" aria-required="true">
-                      </div>
-                    </div>
-                  </div>
-                  <div class="row">
-                    <div class="col-sm-6">
-                      <div class="form-group">
-                        <select class="form-control">
-                          <option>الدولة </option>
-                          <option>المملكة العربية السعودية</option>
-                          <option>جمهورية مصر العربية</option>
-                        </select>
-                      </div>
-                    </div>
-                    <div class="col-sm-6">
-                      <div class="form-group">
-                        <select class="form-control">
-                          <option>المدينة </option>
-                          <option> الرياض</option>
-                          <option>المدينة المنورة</option>
-                        </select>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="row">
-                    <div class="col-sm-6">
-                      <div class="form-group">
-                        <input name="form_add" class="form-control" type="text" placeholder="العنوان" required="" aria-required="true">
-                      </div>
-                    </div>
-                    <div class="col-sm-6">
-                      <div class="form-group">
-                        <input name="form_link" class="form-control" type="text" placeholder="رابط التسجيل" required="" aria-required="true">
-                      </div>
-                    </div>
-                  </div>
-                  <div class="row">
-                    <div class="col-sm-6">
-                      <div class="form-group">
-                        <input name="form_phone" class="form-control" type="phone" placeholder="رقم الجوال" required="" aria-required="true">
-                      </div>
-                    </div>
-                    <div class="col-sm-6">
-                      <div class="form-group">
-                        <input name="form_phone2" class="form-control" type="phone" placeholder="رقم الهاتف الثابت" required="" aria-required="true">
+                        <input  class="form-control" type="password" placeholder="كلمة المرور" >
                       </div>
                     </div>
                   </div>
 
                   <div class="row">
-                    <div class="col-sml-12">
+                    <div class="col-sm-4">
                       <div class="form-group">
-                        <div class="clip-upload">
-                          <label for="file-input">
-                            <i class="fa fa-camera" aria-hidden="true" style="font-size: 20px;color: #1E99A8"></i><span style="font-size: 20px; color: #1E99A8"> صورة النشاط
-                          </span></label>
-
-                          <input type="file" class="file-input hide hidden" name="file-input" id="file-input">
-                          <div class="filename-container hide "></div>
+                        <div class="d-inline-block custom-control custom-checkbox mr-1 ml-1">
+                          <input type="checkbox" class="custom-control-input" name="colorCheck" >
+                          <label class="custom-control-label" >لوحة التحكم</label>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-4">
+                      <div class="form-group">
+                        <div class="d-inline-block custom-control custom-checkbox mr-1 ml-1">
+                          <input type="checkbox" class="custom-control-input" name="colorCheck">
+                          <label class="custom-control-label" > إحصائيات المعالجين</label>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-4">
+                      <div class="form-group">
+                        <div class="d-inline-block custom-control custom-checkbox mr-1 ml-1">
+                          <input type="checkbox" class="custom-control-input" name="colorCheck" >
+                          <label class="custom-control-label" >إحصائيات المستفيدين</label>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-4">
+                      <div class="form-group">
+                        <div class="d-inline-block custom-control custom-checkbox mr-1 ml-1">
+                          <input type="checkbox" class="custom-control-input" name="colorCheck">
+                          <label class="custom-control-label">إحصائيات الطلبات</label>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-4">
+                      <div class="form-group">
+                        <div class="d-inline-block custom-control custom-checkbox mr-1 ml-1">
+                          <input type="checkbox" class="custom-control-input" name="colorCheck" >
+                          <label class="custom-control-label">إحصائيات المتجر</label>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-4">
+                      <div class="form-group">
+                        <div class="d-inline-block custom-control custom-checkbox mr-1 ml-1">
+                          <input type="checkbox" class="custom-control-input" name="colorCheck" >
+                          <label class="custom-control-label" >إحصائيات مراكز العلاج </label>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-4">
+                      <div class="form-group">
+                        <div class="d-inline-block custom-control custom-checkbox mr-1 ml-1">
+                          <input type="checkbox" class="custom-control-input" name="colorCheck">
+                          <label class="custom-control-label" >إحصائيات مراكز التعليم</label>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-4">
+                      <div class="form-group">
+                        <div class="d-inline-block custom-control custom-checkbox mr-1 ml-1">
+                          <input type="checkbox" class="custom-control-input" name="colorCheck" >
+                          <label class="custom-control-label">إحصائيات الأنشطة</label>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-4">
+                      <div class="form-group">
+                        <div class="d-inline-block custom-control custom-checkbox mr-1 ml-1">
+                          <input type="checkbox" class="custom-control-input" name="colorCheck" >
+                          <label class="custom-control-label" >اشعارات المعالجين</label>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-4">
+                      <div class="form-group">
+                        <div class="d-inline-block custom-control custom-checkbox mr-1 ml-1">
+                          <input type="checkbox" class="custom-control-input" name="colorCheck" >
+                          <label class="custom-control-label" >اشعارات المستفيدين</label>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-4">
+                      <div class="form-group">
+                        <div class="d-inline-block custom-control custom-checkbox mr-1 ml-1">
+                          <input type="checkbox" class="custom-control-input" name="colorCheck">
+                          <label class="custom-control-label" >اشعارات مراكز العلاج</label>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-4">
+                      <div class="form-group">
+                        <div class="d-inline-block custom-control custom-checkbox mr-1 ml-1">
+                          <input type="checkbox" class="custom-control-input" name="colorCheck" >
+                          <label class="custom-control-label" >اشعارات مراكز التعليم</label>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-4">
+                      <div class="form-group">
+                        <div class="d-inline-block custom-control custom-checkbox mr-1 ml-1">
+                          <input type="checkbox" class="custom-control-input" name="colorCheck" >
+                          <label class="custom-control-label" >اشعارات الانشطة</label>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-4">
+                      <div class="form-group">
+                        <div class="d-inline-block custom-control custom-checkbox mr-1 ml-1">
+                          <input type="checkbox" class="custom-control-input" name="colorCheck" >
+                          <label class="custom-control-label" >اشعارات  الاسئلة الشائعة</label>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-4">
+                      <div class="form-group">
+                        <div class="d-inline-block custom-control custom-checkbox mr-1 ml-1">
+                          <input type="checkbox" class="custom-control-input" name="colorCheck" >
+                          <label class="custom-control-label" >اشعارات تواصل معانا</label>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-4">
+                      <div class="form-group">
+                        <div class="d-inline-block custom-control custom-checkbox mr-1 ml-1">
+                          <input type="checkbox" class="custom-control-input" name="colorCheck" >
+                          <label class="custom-control-label" >المعالجين</label>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-4">
+                      <div class="form-group">
+                        <div class="d-inline-block custom-control custom-checkbox mr-1 ml-1">
+                          <input type="checkbox" class="custom-control-input" name="colorCheck" >
+                          <label class="custom-control-label">مستفدين</label>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-4">
+                      <div class="form-group">
+                        <div class="d-inline-block custom-control custom-checkbox mr-1 ml-1">
+                          <input type="checkbox" class="custom-control-input" name="colorCheck" >
+                          <label class="custom-control-label" >مراكز العلاج</label>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-4">
+                      <div class="form-group">
+                        <div class="d-inline-block custom-control custom-checkbox mr-1 ml-1">
+                          <input type="checkbox" class="custom-control-input" name="colorCheck" >
+                          <label class="custom-control-label" >مراكز التعليم</label>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-4">
+                      <div class="form-group">
+                        <div class="d-inline-block custom-control custom-checkbox mr-1 ml-1">
+                          <input type="checkbox" class="custom-control-input" name="colorCheck" >
+                          <label class="custom-control-label" >المتجر</label>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-4">
+                      <div class="form-group">
+                        <div class="d-inline-block custom-control custom-checkbox mr-1 ml-1">
+                          <input type="checkbox" class="custom-control-input" name="colorCheck" >
+                          <label class="custom-control-label" >الانشطة</label>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-4">
+                      <div class="form-group">
+                        <div class="d-inline-block custom-control custom-checkbox mr-1 ml-1">
+                          <input type="checkbox" class="custom-control-input" name="colorCheck">
+                          <label class="custom-control-label" >الطلبات</label>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-4">
+                      <div class="form-group">
+                        <div class="d-inline-block custom-control custom-checkbox mr-1 ml-1">
+                          <input type="checkbox" class="custom-control-input" name="colorCheck" >
+                          <label class="custom-control-label" >المشرفين</label>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-4">
+                      <div class="form-group">
+                        <div class="d-inline-block custom-control custom-checkbox mr-1 ml-1">
+                          <input type="checkbox" class="custom-control-input" name="colorCheck" >
+                          <label class="custom-control-label" >الاعلانات</label>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-4">
+                      <div class="form-group">
+                        <div class="d-inline-block custom-control custom-checkbox mr-1 ml-1">
+                          <input type="checkbox" class="custom-control-input" name="colorCheck" >
+                          <label class="custom-control-label" >الاعدادات العامة</label>
                         </div>
                       </div>
                     </div>
