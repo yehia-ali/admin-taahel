@@ -237,13 +237,13 @@
     <div class="content-wrapper">
       <div class="content-header row">
         <div class="content-header-left col-md-6 col-12 mb-2">
-          <h3 class="content-header-title">الشروط والاحكام</h3>
+          <h3 class="content-header-title">الدول</h3>
           <div class="row breadcrumbs-top">
             <div class="breadcrumb-wrapper col-12">
               <ol class="breadcrumb">
                 <li class="breadcrumb-item"><a href="index.html">الرئيسية</a>
                 </li>
-                <li class="breadcrumb-item active">  الشروط والاحكام
+                <li class="breadcrumb-item active">  الدول
                 </li>
               </ol>
             </div>
@@ -257,7 +257,7 @@
             <div class="col-12">
               <div class="card">
                 <div class="card-header">
-                  <h3 class="content-header-title mt-2"><i class="fas fa-question m-1"></i>الشروط والاحكام</h3>
+                  <h3 class="content-header-title mt-2"><i class="fas fa-flag m-1"></i>الدول</h3>
                   <a class="heading-elements-toggle"><i class="la la-ellipsis-v font-medium-3"></i></a>
                   <div class="heading-elements">
                     <ul class="list-inline mb-0">
@@ -272,25 +272,37 @@
                   <div class="card-body card-dashboard">
                     <div class="col-md-12 col-sm-12">
                       <div class="form-group">
-                        <button type="button" class="btn btn-outline-primary" data-toggle="modal" data-target="#zoomInLeft">
-                          أضف شرط                       </button>
+                        <button type="button" class="btn btn-outline-primary" data-toggle="modal" data-target="#add">
+                          أضف دولة                       </button>
                         <button type="button" class="btn btn-outline-primary pull-left mx-1" >تصدير اكسيل</button>
                         <button type="button" class="btn btn-outline-primary pull-left" >طباعة</button>
                     </div>
                     <table class="table table-striped table-bordered order-column dataex-basic-initialisation">
                       <thead>
                       <tr>
-                        <th>الشرط </th>
+                        <th>كود الدولة </th>
+                        <th> اسم الدولة </th>
+                        <th>الاسم المختصر</th>
+                        <th> علم الدولة</th>
+                        <th>الحالة</th>
                         <th>الاجراء</th>
                       </tr>
                       </thead>
                       <tbody>
                       <tr>
                         <td>Customer Support</td>
+                        <td>Customer Support</td>
+                        <td>Customer Support</td>
                         <td>
-
-                          <button type="button"  class="btn btn-outline-danger"  ><i class="fas fa-trash-alt"></i></button>
-                          <button type="button"  class="btn btn-outline-info my-1"  data-toggle="modal" data-target="#edit" class="btn btn-outline-info mr-1"><i class="fas fa-edit"></i></button>
+                          <img src="http://via.placeholder.com/50x50" class="rounded" alt="flag">
+                        </td>
+                        <td>
+                          <button class="btn btn-outline-danger btn-sm">نشط</button>
+                          <button class="btn btn-outline-amber mt-1 btn-sm">معلق</button>
+                        </td>
+                        <td>
+                          <button type="button"  class="btn btn-outline-danger btn-sm"  ><i class="fas fa-trash-alt"></i></button>
+                          <button type="button"  class="btn btn-outline-info mt-1 btn-sm"  data-toggle="modal" data-target="#edit" class="btn btn-outline-info mr-1"><i class="fas fa-edit"></i></button>
                         </td>
                       </tr>
                       </tbody>
@@ -305,47 +317,62 @@
         <!--/ Basic Initialisation table -->
     </div>
   </div>
-    <!-- Modal add -->
-    <div class="modal animated zoomInLeft text-left" id="zoomInLeft1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel71a" style="display: none;" aria-hidden="true">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h4 class="modal-title text-right">أضف </h4>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
-          </div>
-          <div class="modal-body">
-            <div class="row">
-              <div class="col-md-12 ">
-                <div class="border-1px p-25">
+    </div>
+  </div>
+<!-- Modal add -->
+<div class="modal animated zoomInLeft text-left" id="add" tabindex="-1" role="dialog" aria-labelledby="myModalLabel71a" style="display: none;" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title text-right">أضف </h4>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+      </div>
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-md-12 ">
+            <div class="border-1px p-25">
 
-                  <!-- Contact Form -->
-                  <form >
-                    <div class="row">
-                      <div class="col-sm-6">
-                        <div class="form-group">
-                          <input class="form-control" type="text" placeholder="السؤال" >
-                        </div>
-                      </div>
-                      <div class="col-sm-6">
-                        <div class="form-group">
-                          <input class="form-control" type="text" placeholder="الاجابة" >
-                        </div>
-                      </div>
+              <!--  Form -->
+              <form >
+                <div class="row">
+                  <div class="col-sm-6">
+                    <div class="form-group">
+                      <label>كود الدولة</label>
+                      <input class="form-control" type="text" placeholder="كود الدولة" >
                     </div>
-                  </form>
+                  </div>
+                  <div class="col-sm-6">
+                    <div class="form-group">
+                      <label>اسم الدولة</label>
+                      <input class="form-control" type="text" placeholder="اسم الدولة " >
+                    </div>
+                  </div>
+                  <div class="col-sm-6">
+                    <div class="form-group">
+                      <label> الاسم المختصر</label>
+                      <input class="form-control" type="text" placeholder=" الاسم المختصر" >
+                    </div>
+                  </div>
+                  <div class="col-sm-6">
+                    <div class="form-group">
+                      <label>علم الدولة</label>
+                      <input class="form-control" type="file">
+                    </div>
+                  </div>
                 </div>
-              </div>
+              </form>
             </div>
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-outline-info">حفظ</button>
-            <button type="button" class="btn grey btn-outline-danger" data-dismiss="modal">غلق</button>
-          </div>
           </div>
         </div>
       </div>
+      <div class="modal-footer">
+        <button type="submit" class="btn btn-outline-info">حفظ</button>
+        <button type="button" class="btn grey btn-outline-danger" data-dismiss="modal">غلق</button>
+      </div>
     </div>
   </div>
+</div>
+
     <!-- Modal  edit-->
   <div class="modal animated zoomInLeft text-left" id="edit" tabindex="-1" role="dialog" aria-labelledby="myModalLabel71" style="display: none;" aria-hidden="true">
     <div class="modal-dialog" role="document">
@@ -359,12 +386,31 @@
             <div class="col-md-12 ">
               <div class="border-1px p-25">
 
-                <!-- Contact Form -->
-                <form>
+                <!--  Form -->
+                <form >
                   <div class="row">
-                    <div class="col-sm-12">
+                    <div class="col-sm-6">
                       <div class="form-group">
-                        <input class="form-control" type="text" placeholder="شرط" >
+                        <label>كود الدولة</label>
+                        <input class="form-control" type="text" placeholder="كود الدولة" >
+                      </div>
+                    </div>
+                    <div class="col-sm-6">
+                      <div class="form-group">
+                        <label>اسم الدولة</label>
+                        <input class="form-control" type="text" placeholder="اسم الدولة " >
+                      </div>
+                    </div>
+                    <div class="col-sm-6">
+                      <div class="form-group">
+                        <label> الاسم المختصر</label>
+                        <input class="form-control" type="text" placeholder=" الاسم المختصر" >
+                      </div>
+                    </div>
+                    <div class="col-sm-6">
+                      <div class="form-group">
+                        <label>علم الدولة</label>
+                        <input class="form-control" type="file">
                       </div>
                     </div>
                   </div>
@@ -381,37 +427,6 @@
     </div>
   </div>
   <!-- modal add-->
-<div class="modal animated zoomInLeft text-left" id="zoomInLeft" tabindex="-1" role="dialog" aria-labelledby="myModalLabel71" style="display: none;" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h4 class="modal-title text-right">أضف </h4>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
-      </div>
-      <div class="modal-body">
-        <div class="row">
-          <div class="col-md-12 ">
-            <div class="border-1px p-25">
-
-              <!-- Contact Form -->
-              <form >
-                  <div class="col-sm-12">
-                    <div class="form-group">
-                      <input class="form-control" type="text" placeholder="شرط" >
-                    </div>
-                  </div>
-              </form>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-outline-primary">حفظ</button>
-        <button type="button" class="btn grey btn-outline-danger" data-dismiss="modal">غلق</button>
-      </div>
-    </div>
-  </div>
-</div>
 
   </div>
 <!-- ////////////////////////////////////////////////////////////////////////////-->
